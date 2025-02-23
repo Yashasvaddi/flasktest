@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='test.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Input Form</title>
+</head>
+<body>
+    <div class="body">
+        <h2>Enter Something</h2>
+        <form method="POST">
+            <div class="title">
+                <h2 class="titletxt">Live Camera Stream</h2>
+            </div>
+            <div class="camfeed">
+                <img src="/video_feed" width="640">
+            </div>
+            <input type="text" name="user_input" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

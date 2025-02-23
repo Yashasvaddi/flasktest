@@ -1,0 +1,16 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.titletxt{
+    font-size: 100px;
+}
+.title{
+    border: 3px solid black;
+}
+.camfeed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
