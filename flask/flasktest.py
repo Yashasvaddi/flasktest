@@ -14,6 +14,7 @@ def generate_frames():
     mp_hands=mp.solutions.hands
     hands=mp_hands.Hands()
     mp_draw=mp.solutions.drawing_utils  
+    
     while True:
         success, frame = camera.read()  # Read frame from webcam
         if not success:
